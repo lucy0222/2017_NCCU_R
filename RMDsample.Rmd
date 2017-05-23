@@ -2,7 +2,7 @@
 title: "一週天氣預報"
 author: "我是小弟"
 date: "2017/5/23"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ##  在地天氣報馬仔
