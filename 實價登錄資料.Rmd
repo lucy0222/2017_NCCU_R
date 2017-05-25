@@ -72,8 +72,7 @@ datatable(name, options = list(pageLength = 14))
 
 顯示這筆資料皆為民國102年的交易紀錄
 ```{r}
-min(data$trac_year)
-max(data$trac_year)
+summary(data$trac_year)
 ```
 
 
@@ -81,8 +80,7 @@ max(data$trac_year)
 
 顯示這筆資料皆為民國102年1月到民國102年12月的交易紀錄
 ```{r}
-min(data$trac_month)
-max(data$trac_month)
+summary(data$trac_month)
 ```
 
 
@@ -103,7 +101,7 @@ table(data$city)
 
 
 
-####  觀察資料
+###  觀察資料
 
 - 可以透過`str(data)`了解資料的型態與特性
 - 利用`summary(data)`暸解基本的各變數統計量值
